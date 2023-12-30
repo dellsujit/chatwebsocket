@@ -1,5 +1,6 @@
 //const socket = io("http://localhost:4000",{})
-const socket = io("https://chatwebsocket-1uvh.vercel.app");
+const io = require('socket.io')(server);
+const socket = io("https://chatwebsocket-git-main-dellsujits-projects.vercel.app");
 const messagetone = new Audio('/tone.mp3')
 const clinettotal = document.getElementById('clients-total');
 const messagcontainer = document.getElementById('message-container');
