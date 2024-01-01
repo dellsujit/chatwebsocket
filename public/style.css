@@ -9,7 +9,7 @@
 }
 body
 {
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-family: 'Rubik', sans-serif;
 /* display: flex;
 flex-direction: column;
@@ -17,7 +17,8 @@ justify-content: center;
 align-items: center; */
 display: grid;
 place-items: center;
-background-color: #ebebeb;
+background-color: #2d2d2d;
+padding-top: 10px;
 }
 
 .title
@@ -111,7 +112,6 @@ text-align: center;
 
 .message-form
 {
-
     display: flex;
     justify-content: space-between;
     width: 400px;
@@ -140,12 +140,13 @@ text-align: center;
 {
     height: 48px;
     width: 2px;
-    background-color: #f6f6f6;
+    background-color: black;
 }
 
 .client-total
 {
+    padding-top: 10px;
     margin: 20px 0;
-    color: #7e7e7e;
+    color:#fff !important;
 }
 
